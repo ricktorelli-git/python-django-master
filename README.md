@@ -190,12 +190,19 @@ para criar um site completo, incluindo um banco de dados, um servidor web e um s
   -   A   U   L   A     P  Y  C  O  D  E  B  R
   -   0   1   2   3  4  5  6  7  8  9  10 11 12
   - -13 -12 -11 -10 -9 -8 -7 -6 -5 -4  -3 -2 -1
-
-
-
-
-
-
-
+  
+  - Funções úteis para strings:
+    - `len()`: Retorna o tamanho da string.
+    - `lower()`: Retorna a string em letras minúsculas.
+    - `upper()`: Retorna a string em letras maiúsculas.
+    - `capitalize()`: Retorna a string com a primeira letra maiúscula.
+    - `title()`: Retorna a string com a primeira letra de cada palavra maiúscula.
+    - `strip()`: Remove os espaços em branco do início e do fim da string.
+    - `replace()`: Substitui uma parte da string por outra.
+    - `split()`: Divide a string em uma lista de substrings.
+    - `join()`: Junta uma lista de strings em uma única string.
+    - `find()`: Retorna o índice da primeira ocorrência de uma substring.
+    - `count()`: Retorna o número de ocorrências de uma substring.
+  
 
 
