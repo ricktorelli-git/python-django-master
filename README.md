@@ -204,5 +204,60 @@ para criar um site completo, incluindo um banco de dados, um servidor web e um s
     - `find()`: Retorna o índice da primeira ocorrência de uma substring.
     - `count()`: Retorna o número de ocorrências de uma substring.
   
+#### OPERADORES LÓGICOS EM PYTHON
+- Os operadores lógicos são usados para combinar expressões booleanas. Eles retornam True ou False.
+- Operadores lógicos se utilizam de uma Tabela Verdade para determinar o resultado de uma expressão.
+  - Tabela Verdade:
+    - `and`:
+        - True and True = True
+        - True and False = False
+        - False and True = False
+        - False and False = False
+    - `or`:
+        - True or True = True
+        - True or False = True
+        - False or True = True
+        - False or False = False
+    - `not`:
+        - not True = False
+        - not False = True
 
+- Os operadores lógicos são:
+    - `and`: Retorna True se ambas as expressões forem True.
+    - `or`: Retorna True se pelo menos uma das expressões for True.
+    - `not`: Retorna True se a expressão for False e vice-versa.
+  
+#### OPERADORES ARITMÉTICOS EM PYTHON
+- Os operadores aritméticos são usados para realizar operações matemáticas. Eles retornam um número.
+- Os operadores aritméticos são:
+    - `+`: Adição.
+    - `-`: Subtração.
+    - `*`: Multiplicação.
+    - `/`: Divisão.
+    - `//`: Divisão inteira.
+    - `%`: Módulo.
+    - `**`: Exponenciação.
+    - `+=`: Adição e atribuição.
+    - `-=`: Subtração e atribuição.
+    - `*=`: Multiplicação e atribuição.
+    - `/=`: Divisão e atribuição.
+    - `//=`: Divisão inteira e atribuição.
+    - `%=`: Módulo e atribuição.
+    - `**=`: Exponenciação e atribuição.
 
+#### FUNÇÕES EM PYTHON
+- Funções são blocos de código que podem ser reutilizados. Elas podem receber parâmetros e retornar valores.
+- Funções são definidas usando a palavra-chave `def`.
+- Exemplo de função:
+```python
+def soma(a, b):
+    return a + b
+```
+- Para chamar uma função, basta usar o nome da função seguido dos parâmetros entre parênteses.
+- Exemplo de chamada de função:
+```python
+def soma(a, b):
+    return a + b
+resultado = soma(2, 3)
+print(resultado) # 5
+```
